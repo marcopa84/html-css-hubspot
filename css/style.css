@@ -91,12 +91,42 @@ a{
   border-radius: 5px;
   font-size: 15px;
   margin:0 10px;
-
 }
-
+.ico_blue{
+  color:#1FAFC5;
+}
+/* /fine regole menu top */
 .menu_bottom{
   height: 80px;
-  background-color: blue;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #fff;
+}
+.menu_bottom_left{
+  width: 30%;
+  height: 100%;
+  line-height: 80px;
+  vertical-align: middle;
+}
+.menu_bottom_right{
+  width: 70%;
+  height: 100%;
+  line-height: 80px;
+  vertical-align: middle;
+  text-align: right;
+}
+.menu_bottom_right ul{
+  list-style: none;
+}
+.menu_bottom_right li{
+  display: inline-block;
+  line-height: 80px;
+  vertical-align: middle;
+  margin: 0 15px;
+}
+.menu_bottom_right li span{
+  margin: 0 15px;
 }
 
 /* REGOLE MAIN */
