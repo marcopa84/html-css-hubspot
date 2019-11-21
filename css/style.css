@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  color: #33475B;
 }
 h1{
   font-size: 3.438rem;
@@ -27,6 +28,16 @@ h5{
   font-weight: 400;
   line-height: 1.3636;
 }
+a{
+  color: #33475B;
+  text-decoration: none;
+}
+.float_left{
+  float: left;
+}
+.float_right{
+  float: right;
+}
 .clear{
   content: "";
   display: table;
@@ -35,14 +46,54 @@ h5{
 .padding_default{
   padding: 0 200px;
 }
+.button_orange{
+  color:#fff;
+  background-color: #FE775A;
+  border-radius: 5px;
+  font-size: 15px;
+}
 /* /REGOLE GENERALI */
 
 
 /* REGOLE MENU */
 .menu_top{
   height: 80px;
+  width: 100%;
   background-color: #F4F9FD;
+  font-size: 20px;
+  font-weight: 700;
 }
+.menu_top_left{
+  width: 50%;
+  height:100%;
+  line-height: 80px;
+  vertical-align: middle;
+}
+.menu_top_left span{
+  padding: 0 5px;
+}
+.menu_top_right{
+  width: 50%;
+  height:100%;
+  line-height: 80px;
+  vertical-align: middle;
+  text-align: right;
+}
+.menu_top_right .button_orange{
+  padding: 10px 20px;
+  margin:0 10px;
+}
+.button_login{
+  color: #FE775A;
+  background-color: #fff;
+  border: 2px solid #FE775A;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin:0 10px;
+
+}
+
 .menu_bottom{
   height: 80px;
   background-color: blue;
