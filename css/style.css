@@ -7,8 +7,8 @@
   color: #33475B;
 }
 h1{
-  font-size: 3.438rem;
-  line-height: 1.1818;
+  font-size: 60px;
+  line-height: 90px;
 }
 h2{
   font-size: 2rem;
@@ -51,6 +51,7 @@ a{
   background-color: #FE775A;
   border-radius: 5px;
   font-size: 15px;
+  border: none;
 }
 /* /REGOLE GENERALI */
 
@@ -128,14 +129,27 @@ a{
 .menu_bottom_right li span{
   margin: 0 15px;
 }
-
+/* /fine regole menu bottom */
 /* REGOLE MAIN */
 .jumbo{
-  height: 600px;
+  height: 800px;
   background-image: url(../img/jumbotron.png);
-  background-position: 100% 13%;
+  background-position: 100% 11%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: #FFF4EE;
+}
+.jumbo_display{
+  width: 50%;
+  padding-top: 80px;
+}
+.jumbo_display p{
+  font-size: 20px;
+  line-height: 45px;
+  margin: 20px 0;
+}
+.button_jumbo{
+  margin: 20px 0;
+  padding: 20px 40px;
 }
 .banner_empty{
   height: 80px;
