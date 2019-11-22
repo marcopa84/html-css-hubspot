@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #33475B;
 }
 h1{
@@ -162,8 +162,8 @@ a{
   border-bottom: 3px solid #33475B;
 }
 /* /fine regole banner empty */
+/* REGOLE SERVICES */
 .services{
-  height: 2000px;
   background-color: #F4F9FD;
 }
 .services p{
@@ -175,7 +175,20 @@ a{
   border: 3px solid #E7EDF2;
   border-radius: 5px;
 }
+.services i{
+  margin-top: 15px;
+  color: #FE775A;
+  margin-right: 30px;
+}
+.services img{
+  height: 100px;
+}
+.services button{
+  margin-top: 100px;
+}
+/* /regole generali services */
 
+/* primo box */
 .services_one{
   width: 50%;
   margin: auto;
@@ -183,10 +196,8 @@ a{
   padding: 50px 0;
   text-align: center;
 }
-.services_one img{
-  height: 100px;
-}
 
+/* secondo box */
 .services_two{
   width: 100%;
   margin: auto;
@@ -198,12 +209,6 @@ a{
   width: 40%;
   height: 300px;
   text-align: center;
-}
-.services_two_img img{
-  height: 100px;
-}
-.services_two_img button{
-  margin-top: 100px;
 }
 .services_two_text{
   width: 40%;
@@ -227,14 +232,32 @@ a{
   margin-top: 15px;
   margin-right: 30px;
 }
-.services_two_text i{
-  margin-top: 15px;
-  color: #FE775A;
-  margin-right: 30px;
-}
 .services_tree{
-
+  height: 500px;
+  width: 100%;
+  text-align: center;
 }
+/* terza riga box */
+.services_tree_box{
+  width: 30%;
+  margin-top: 50px;
+  padding: 50px;
+}
+.services_tree_box_margin{
+  margin: 50px 5%;
+}
+.services_tree_box p{
+  margin: 20px 0;
+}
+.services_tree_box hr{
+  margin: 30px 0;
+}
+.services_tree_box_popolarfeatures{
+  text-align: left;
+  margin: 20px 0;
+}
+
+
 
 
 .numbers{
