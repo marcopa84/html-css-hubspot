@@ -35,6 +35,10 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  color: rgb(0, 145, 174);
+}
+
 .float_left{
   float: left;
 }
@@ -61,11 +65,15 @@ a{
 
 /* REGOLE MENU */
 .menu_top{
+  position: fixed;
+  top:0;
   height: 80px;
   width: 100%;
   background-color: #F4F9FD;
   font-size: 20px;
   font-weight: 700;
+  border-bottom: 1px solid black;
+  z-index: 3;
 }
 .menu_top_left{
   width: 50%;
@@ -106,6 +114,7 @@ a{
   font-size: 20px;
   font-weight: 700;
   background-color: #fff;
+  margin-top: 80px;
 }
 .menu_bottom_left{
   width: 30%;
@@ -416,9 +425,6 @@ footer a{
   line-height: 38px;
   text-transform: capitalize;
 }
-footer a:hover{
-  color: rgb(0, 145, 174);
-}
 .footer_top{
   background-color:#33475B;
 }
@@ -472,6 +478,26 @@ footer a:hover{
   margin-right: 40px;
 }
 .footer_bottom{
-  height: 200px; /* WARNING:  */
+  width: 100%;
   background-color:#33475B;
+  color: red;
+}
+.footer_bottom_left{
+  width: 50%;
+  padding: 50px 0;
+}
+.footer_bottom_left img{
+  margin: 10px 0;
+}
+.footer_bottom_left p{
+  color:#cbd6e2;
+}
+.footer_bottom_right{
+  width: 50%;
+  padding: 50px 0;
+  text-align: right;
+}
+.footer_bottom_right a{
+  margin-left: 15px;
+  font-size: 20px;
 }
