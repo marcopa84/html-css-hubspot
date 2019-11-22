@@ -16,7 +16,8 @@ h2{
   line-height: 60px;
 }
 h3{
-
+  font-size: 20px;
+  line-height: 25px;
 }
 h4{
   font-size: 35px;
@@ -176,7 +177,7 @@ a{
   margin: 5px 0;
 }
 .services_box_border{
-  border: 3px solid #E7EDF2;
+  box-shadow: 0 0 11px #eaf0f6;
   border-radius: 5px;
 }
 .services i{
@@ -314,6 +315,8 @@ a{
 .partners_first_row{
   width: 100%;
   height: 300px;
+  margin: 30px 0;
+
 }
 .partners_first_row_left{
   width: 30%;
@@ -329,7 +332,7 @@ a{
 .partners_logo_box{
   width: 200px;
   height: 100%;
-  margin: 30px 20px;
+  margin: 0 20px;
 }
 
 #logo1{
@@ -384,11 +387,13 @@ a{
 .partners_second_row{
   width: 100%;
   height: 500px;
-  padding-bottom: 50px;
+  margin: 30px 0;
 }
 .partners_second_row_left{
   width: 70%;
+  padding-right: 450px;
 }
+
 .partners_second_row_right{
   width: 30%;
   text-align: right;
@@ -396,15 +401,63 @@ a{
 .partners_second_row_right img{
   height:400px;
 }
-
-
-
-
-
+.partners_second_row_left h3{
+  margin: 30px 0;
+}
+.partners_second_row_left p{
+  margin: 30px 0;
+}
 /* REGOLE FOOTER */
 .footer_top{
-  height: 300px;
-  background-color: #32495B;
+  background-color:#33475B;
+}
+.footer_top_menu{
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+  border-bottom: 3px solid white;
+}
+.footer_top_menu_languages{
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.footer_top_menu_col{
+  width: 25%;
+}
+.footer_top_menu_col h5{
+  color: #fff;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.footer_top_menu ul{
+  list-style: none;
+}
+.footer_top_menu a{
+  text-decoration: none;
+  color: #cbd6e2;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 38px;
+  text-transform: capitalize;
+}
+.footer_top_menu_col i{
+  color: #cbd6e2;
+  font-size: 20px;
+  margin-top:15px;
+  margin-right: 20px;
+}
+.footer_top_menu_col button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 15px 0;
+}
+.footer_top_menu_languages li{
+  margin-right: 40px;
+  margin-top: 30px;
 }
 .footer_bottom{
   height: 200px;
