@@ -104,6 +104,15 @@ a:hover{
   font-size: 15px;
   margin:0 10px;
 }
+button.button_login:hover{
+  color:#fff ;
+  background-color: #FE775A;
+  cursor: pointer;
+}
+button.button_orange:hover{
+  color: rgb(0, 145, 174);
+  cursor: pointer;
+}
 .ico_blue{
   color:#1FAFC5;
 }
