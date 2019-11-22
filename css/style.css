@@ -134,9 +134,11 @@ a{
 /* /fine regole menu bottom */
 /* REGOLE MAIN */
 .jumbo{
+  position: relative;
   height: 800px;
+  width: 100%;
   background-image: url(../img/jumbotron.png);
-  background-position: 100% 11%;
+  background-position: 100% 76%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -155,6 +157,8 @@ a{
 }
 /* /fine regole jumbo */
 .banner_empty{
+  position: absolute;
+  bottom:0;
   height: 80px;
   width: 100%;
   background-color: #AFEBE4;
@@ -192,11 +196,15 @@ a{
 .services_one{
   width: 50%;
   margin: auto;
-  height: 300px;
   padding: 50px 0;
   text-align: center;
 }
-
+.services_one p{
+  margin-top: 50px;
+}
+#service_one_img{
+  height: 200px;
+}
 /* secondo box */
 .services_two{
   width: 100%;
@@ -278,7 +286,6 @@ a{
 }
 .numbers_text{
   padding: 50px 0;
-  margin-top: 50px;
   text-align: center;
 }
 .numbers_table_box {
@@ -299,13 +306,101 @@ a{
 .numbers_table_box tr:first-child td {
   border-bottom: 1px solid #fff;
 }
-
-
+/* REGOLE PARTNERS */
 .partners{
-  height: 700px;
 
-  background-color: blue;
 }
+/* regole prima riga */
+.partners_first_row{
+  width: 100%;
+  height: 300px;
+}
+.partners_first_row_left{
+  width: 30%;
+  padding: 50px 100px;
+}
+.partners_first_row_right{
+  width: 70%;
+  padding: 50px 0px;
+}
+.partners_logo_row{
+  height: 100px;
+}
+.partners_logo_box{
+  width: 200px;
+  height: 100%;
+  margin: 30px 20px;
+}
+
+#logo1{
+  background-image: url(../img/partners/1_Atlassian-horizontal-blue@2x.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#logo2{
+  background-image: url(../img/partners/2_doordash_owler_20181011_194113_original@2x.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#logo3{
+  background-image: url(../img/partners/3_g2crowd-logo@2x.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#logo4{
+  background-image: url(../img/partners/4_purple-logo@2x.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#logo5{
+  background-image: url(../img/partners/5_Subaru_Logo_v2_186x63@2x.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#logo6{
+  background-image: url(../img/partners/6_Wistia_logo@2x.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#logo7{
+  background-image: url(../img/partners/7_Classpass-logo@2x.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#logo8{
+  background-image: url(../img/partners/8_VMware_logo_gry_RGB_300dpi@2x.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* regole second riga */
+.partners_second_row{
+  width: 100%;
+  height: 500px;
+  padding-bottom: 50px;
+}
+.partners_second_row_left{
+  width: 70%;
+}
+.partners_second_row_right{
+  width: 30%;
+  text-align: right;
+}
+.partners_second_row_right img{
+  height:400px;
+}
+
+
+
+
+
 /* REGOLE FOOTER */
 .footer_top{
   height: 300px;
