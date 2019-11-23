@@ -161,7 +161,7 @@ button.button_orange:hover{
   width: inherit;
 	visibility: hidden;
   z-index: 2;
-  background-color: #7BDED2;
+  background-color: #F4F9FD;
 
 }
 .sotto_menu ul li:hover ul {
@@ -172,7 +172,7 @@ button.button_orange:hover{
   padding: 0 20px;
   width: inherit;
   border-bottom: 1px solid black;
-  background-color: #7BDED2;
+  background-color: #F4F9FD;
 }
 /* REGOLE MAIN */
 .jumbo{
