@@ -133,7 +133,7 @@ button.button_orange:hover{
 }
 .menu_bottom_right{
   width: 70%;
-  height: 100%;
+  height: 80px;
   line-height: 80px;
   vertical-align: middle;
   text-align: right;
@@ -141,7 +141,8 @@ button.button_orange:hover{
 .menu_bottom_right ul{
   list-style: none;
 }
-.menu_bottom_right li{
+.menu_bottom_right  li{
+  position: relative;
   display: inline-block;
   line-height: 80px;
   vertical-align: middle;
@@ -151,6 +152,28 @@ button.button_orange:hover{
   margin: 0 15px;
 }
 /* /fine regole menu bottom */
+
+/* regole sottomenu */
+.sotto_menu ul ul {
+	position: absolute;
+	top: 80px;
+  left: 0;
+  width: inherit;
+	visibility: hidden;
+  z-index: 2;
+  background-color: #7BDED2;
+
+}
+.sotto_menu ul li:hover ul {
+	visibility: visible;
+}
+.sotto_menu ul ul > li {
+  margin:0;
+  padding: 0 20px;
+  width: inherit;
+  border-bottom: 1px solid black;
+  background-color: #7BDED2;
+}
 /* REGOLE MAIN */
 .jumbo{
   position: relative;
