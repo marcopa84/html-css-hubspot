@@ -155,17 +155,17 @@ button.button_orange:hover{
 
 /* regole sottomenu */
 .sotto_menu ul ul {
-	position: absolute;
-	top: 80px;
+  position: absolute;
+  top: 80px;
   left: 0;
   width: inherit;
-	visibility: hidden;
+  display: none;
   z-index: 2;
   background-color: #F4F9FD;
 
 }
 .sotto_menu ul li:hover ul {
-	visibility: visible;
+  display: block;
 }
 .sotto_menu ul ul > li {
   margin:0;
@@ -374,55 +374,34 @@ button.button_orange:hover{
   width: 200px;
   height: 100%;
   margin: 0 20px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #logo1{
   background-image: url(../img/partners/1_Atlassian-horizontal-blue@2x.webp);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 #logo2{
   background-image: url(../img/partners/2_doordash_owler_20181011_194113_original@2x.webp);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 #logo3{
   background-image: url(../img/partners/3_g2crowd-logo@2x.webp);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 #logo4{
   background-image: url(../img/partners/4_purple-logo@2x.webp);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 #logo5{
   background-image: url(../img/partners/5_Subaru_Logo_v2_186x63@2x.webp);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 #logo6{
   background-image: url(../img/partners/6_Wistia_logo@2x.webp);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 #logo7{
   background-image: url(../img/partners/7_Classpass-logo@2x.webp);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 #logo8{
   background-image: url(../img/partners/8_VMware_logo_gry_RGB_300dpi@2x.webp);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 /* regole second riga */
 .partners_second_row{
@@ -457,22 +436,17 @@ footer a{
   line-height: 38px;
   text-transform: capitalize;
 }
+footer ul{
+  list-style: none;
+}
+
 .footer_top{
   background-color:#33475B;
 }
 .footer_top_menu{
   position: relative;
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 150px;
-  border-bottom: 1px solid white;
-}
-.footer_top_menu_languages{
-  position: absolute;
-  bottom:0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
+  padding: 50px 0;
 }
 .footer_top_menu_col{
   width: 25%;
@@ -482,10 +456,6 @@ footer a{
   font-weight: 700;
   margin: 10px 0;
 }
-.footer_top_menu ul{
-  list-style: none;
-}
-
 .footer_top_menu_col i{
   color: #cbd6e2;
   font-size: 20px;
@@ -506,9 +476,17 @@ footer a{
   background-color: rgb(0, 145, 174);
   cursor: pointer;
 }
-.footer_top_menu_languages li{
-  margin-right: 40px;
+
+.footer_middle{
+  text-align: center;
+  background-color:#33475B;
 }
+.footer_middle li{
+  margin-right: 40px;
+  color: #fff;
+  display: inline-block;
+}
+
 .footer_bottom{
   width: 100%;
   background-color:#33475B;
