@@ -45,7 +45,7 @@ a:hover{
 .float_right{
   float: right;
 }
-.clear{
+.clear:after{
   content: "";
   display: table;
   clear: both;
@@ -251,18 +251,15 @@ button.button_orange:hover{
 .services_two{
   width: 100%;
   margin: auto;
-  height: 300px;
   padding: 50px 0;
   margin-top: 50px;
 }
 .services_two_img{
   width: 40%;
-  height: 300px;
   text-align: center;
 }
 .services_two_text{
   width: 40%;
-  height: 300px;
 }
 .popolar_feature{
   margin-top: 40px;
@@ -283,7 +280,6 @@ button.button_orange:hover{
   margin-right: 30px;
 }
 .services_tree{
-  height: 500px;
   width: 100%;
   text-align: center;
 }
